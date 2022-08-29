@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Hello, My name is Mikael");
+﻿
+Console.Write("Enter Your Name: ");
+string namn = Console.ReadLine();
+Console.WriteLine("Hello, " + namn + ".");
